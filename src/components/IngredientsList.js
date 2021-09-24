@@ -3,7 +3,7 @@ import IngredientItem from './IngredientItem.js'
 export default class IngredientsList extends Component {
     render() {
         return (
-            <div>
+            <ul>
                 <IngredientItem amount = "1/2 cup" name = " Milk" />
                 <IngredientItem amount = "1/2 cup" name = " Marvscapone" />
                 <IngredientItem amount = "1/2 tsp" name = " Pink Salt" />
@@ -16,7 +16,7 @@ export default class IngredientsList extends Component {
                 <IngredientItem amount = "1 lemon" name = " Juiced" />
                 <IngredientItem amount = "2 tbsp" name = " Butter" />
                 <IngredientItem amount = "1 cup" name = " Honey Roasted Pecans, Roughly Chopped" />
-        </div>
+        </ul>
         )
     }
 }
