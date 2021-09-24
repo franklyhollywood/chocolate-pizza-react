@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 export default class IngredientItem extends Component {
     render() {
         return (
-            <div>
-                <input type = "checkbox" />
+            <ul>
+               <li> <input type = "checkbox" /> </li>
                 {this.props.amount}
                 {this.props.name}
-            </div>
+            </ul>
         )
     }
 }
